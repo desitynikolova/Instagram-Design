@@ -1,0 +1,118 @@
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+
+.images{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+}
+
+.images img{
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+h2{
+    padding-left: 55px;
+}
+
+.icons{
+    display: flex;
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header h2{
+    flex-grow: 9;
+}
+
+.header ul{
+    flex-grow: 1;
+}
+
+.header li{
+    padding: 10px 10px 0px 10px;
+}
+
+i{
+    font-size: 20px;
+}
+
+.images p{
+    margin: 10px;
+    padding-left: 25px;
+    margin-top: -5px;
+}
+
+.images{
+    border-bottom: 1px solid lightgray;
+    padding-left: 25px;
+}
+
+.pictures img{
+    width: 50px;
+    height: 50px;
+    flex-grow: 0;
+    margin: 10px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+section{
+    padding-left: 20px;
+    display: flex;
+}
+
+.pictures p{
+    padding-top: 10px;
+    padding-left: 5px;
+    flex-grow: 1;
+}
+
+.pictures i{
+    padding-top: 25px;
+    padding-right: 30px;
+}
+
+
+.img-person{
+    height: 450px;
+    width: 500px;
+    margin-left: 30px;
+    border: 1px solid black;
+}
+
+.footer-pictures{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fa-bookmark{
+    padding-left: 380px;
+}
+
+.footer-pictures li{
+    padding: 5px;
+}
+
+.footer{
+    display: flex;
+    border-top: 1px solid lightgray;
+}
+
+.footer ul{
+    display: flex;
+
+}
+
+.footer li{
+    padding-right: 95px;
+}
+
